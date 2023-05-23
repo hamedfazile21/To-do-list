@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+header{
+    background: rgb(0, 49, 82);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+section{
+    width: 100%;
+    text-align: center;
+}
+form{
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px;
+}
+input{
+    padding: 10px;
+    width: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+button{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: none;
+    font-size: 20px;
+    transition: all 0.2s;
+}
+button:hover{
+    background: rgb(0, 49, 82);
+}
+.remove-note{
+    float: left;  
+    font-weight: bold;
+    font-size:20px ; 
+    cursor: pointer;
+
+}
+.note-list{
+    text-align: center;
+}
+.fahter{
+    padding: 10px;
+    width: 100%;
+    margin-left: 20px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    font-size: 20px;
+    list-style: none;
+    margin-left: 10px;
+    width: 40%;
+    border: solid black 1px;
+    padding: 10px 20px;
+    gap: 8px;
+    font-weight: bold;
+    border-radius: 8px;
+    float: left;
+}
